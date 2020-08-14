@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+  <title>Yoko's Kitchen</title>
+  <style type="text/css">
+    body, html {
+      /* The image used */
+      background-image: url("dark-wood.jpg");
+    }
+    
+    #nav {
+      color: white;
+      background-color: grey;      
+      width: 81%;
+      margin: auto;      
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    nav{      
+      padding: 2px;
+      color: red;
+    }
+    nav li {
+      display: inline-block;
+      margin: 0px 15px;
+    }
+    nav li a {
+      text-decoration: none;
+      color:rgb(13,13,13);
+    }
+    #box1 {
+      background-color: white;
+      width: 81%;
+      margin: auto;
+      padding: 10px;      
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+    }
+    #span1 {
+      color: red;
+    }
+    #footer {
+      color: white;
+      background-color: grey;      
+      width: 81%;
+      margin: auto;      
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding: 2px;
+    }
+    #boxright{ 
+            border-left: 6px solid black; 
+            height: 200px; 
+            position:absolute; 
+            left: 50%; 
+        }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="header.jpg" width="100%">      
+  </div>
+  <div id="nav">
+    <nav>
+      <ul>
+        <li class="list-inline-item"><a href="#">home</a></li>
+        <li class="list-inline-item"><a href="#">classes</a></li>
+        <li class="list-inline-item"><a href="#">catering</a></li>
+        <li class="list-inline-item"><a href="#">about</a></li>
+        <li class="list-inline-item"><a href="#">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="box1">
+    <div class="row">
+      <div class="col-4">
+        <img src="bok-choi.jpg"><br>Bok Choi</img>
+      </div>
+      <div class="col-5">
+        <h4>Japanese Vegetarian</h4>
+        <h5><span id="span1">Five week course in London</span></h5>
+        <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice noodle dishes.</p>
+      </div>
+      <div class="col-3" id="span1">
+        <h4>Popular Recipes</h4>
+        <nav>
+      <ul>
+        <li><a href="#">Yakitori (grilled chicken)</a></li><hr>
+        <li><a href="#">Tsukune (minced chicken patties)</a></li><hr>
+        <li><a href="#">Okonomiyaki (savory pancakes)</a></li><hr>
+        <li><a href="#">Mizutaki (chicken stew)</a></li><hr>
+      </ul>
+    </nav>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <img src="teriyaki.jpg"><br>Teriyaki Sauce</img>
+      </div>
+      <div class="col-5">
+        <h4>Sauces Masterclass</h4>
+        <h5><span id="span1">One day workshop</span></h5>
+        <p>An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+      </div>
+      
+      <div class="col-3">
+        <h4><span id="span1">Contact</span></h4>
+        <main>
+          <p>Yoko's Kitchen<br>
+          27 Redchurch Street<br>
+          Shoreditch<br>
+          London E2 7DP</p>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p text="justify">&#169;2011 Yoko's Kitchen</p>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
