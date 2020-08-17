@@ -14,11 +14,17 @@
       /* The image used */
       background-image: url("dark-wood.jpg");
     }
+    #header {
+      width: 80%;
+      margin: auto;      
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
     
     #nav {
       color: white;
       background-color: grey;      
-      width: 81%;
+      width: 80%;
       margin: auto;      
       margin-top: 0px;
       margin-bottom: 0px;
@@ -37,7 +43,7 @@
     }
     #box1 {
       background-color: white;
-      width: 81%;
+      width: 80%;
       margin: auto;
       padding: 10px;      
       margin-top: 0px;
@@ -50,23 +56,24 @@
     #footer {
       color: white;
       background-color: grey;      
-      width: 81%;
+      width: 80%;
       margin: auto;      
       margin-top: 0px;
       margin-bottom: 0px;
       padding: 2px;
     }
-    #boxright{ 
+    /*#boxright{ 
             border-left: 6px solid black; 
             height: 200px; 
             position:absolute; 
             left: 50%; 
-        }
+        }*/
 
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
+    <div id="header">    
     <img src="header.jpg" width="100%">      
   </div>
   <div id="nav">
@@ -91,7 +98,7 @@
         <h5><span id="span1">Five week course in London</span></h5>
         <p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice noodle dishes.</p>
       </div>
-      <div class="col-3" id="span1">
+      <div class="col-3" id="span1">        
         <h4>Popular Recipes</h4>
         <nav>
       <ul>
@@ -127,8 +134,9 @@
   </div>
 
   <div id="footer">
-    <p text="justify">&#169;2011 Yoko's Kitchen</p>
+    <p text="justify">&#169; 2011 Yoko's Kitchen</p>
   </div>
+</div>
 
   <!-- Optional JavaScript -->
   <!-- Popper.js first, then Bootstrap JS -->
